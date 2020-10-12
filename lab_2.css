@@ -21,9 +21,12 @@ body {
   padding: 4px 8px;
   font-size: 18px;
   color: var(--clr-green);
-  background-color: var(--clr-blk);
+  background-color: transparent;
 }
-
+/* SPAN */
+.green {
+  color: var(--clr-green);
+}
 /* INPUTS */
 .input {
   border: none;
@@ -32,8 +35,17 @@ body {
   color: var(--clr-blk);
   display: inline-block;
   margin: 0 auto;
-  padding-left: 15px;
-  width: 400px;
+}
+.round {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
 }
 
 /* Nav */
@@ -93,10 +105,110 @@ body {
   padding-bottom: 50px;
 }
 #info p {
-  margin: 0 500px;
+  max-width: 750px;
   padding: 30px;
   text-align: center;
 }
-#info p .green {
-  color: var(--clr-green);
+#banner_2 {
+  height: 500px;
+  width: 100%;
+  background-image: url(img/downloads-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#banner_2 div {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner_2 h2 {
+  margin-top: 150px;
+  font-size: 40px;
+  font-weight: 400;
+}
+#banner_2 .button {
+  height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+}
+#contact {
+  height: 500px;
+  background-color: var(--clr-blk);
+}
+#contact div {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact h3 {
+  margin-top: 150px;
+  font-size: 30px;
+  font-weight: 400;
+}
+#contact p {
+  max-width: 700px;
+  text-align: center;
+}
+#contact .button {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 400;
+}
+#reservation {
+  height: 800px;
+  background-color: var(--clr-blk);
+}
+#reservation .h3 {
+  display: flex;
+  justify-content: center;
+}
+#reservation h3 {
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+}
+#reservation p {
+  margin: 0 10px;
+}
+#reservation .reservation-input {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+#reservation .reservation-input input {
+  margin: 10px 0;
+  margin-left: 10px;
+  width: 95%;
+}
+#reservation .reservation-checkbox {
+  display: flex;
+  flex-direction: column;
+}
+#reservation .reservation-checkbox {
+  margin: 10px 0;
+}
+#reservation .terms-input {
+  margin: 20px 0;
+}
+#reservation .reservation-button {
+  display: flex;
+  justify-content: center;
+}
+#reservation .button {
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer-bottom {
+  height: 50px;
+  background-color: var(--clr-blk);
+  text-align: center;
+  bottom: 0px;
 }

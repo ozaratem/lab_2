@@ -13,6 +13,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
+    <!-- Reset -->
+    <link rel="stylesheet" href="reset.css">
+    <!-- Style -->
     <link rel="stylesheet" href="lab_2.css" />
   </head>
   <body>
@@ -36,6 +39,7 @@
         <i class="fas fa-chevron-circle-down"></i>
       </div>
     </section>
+    <!-- INFO -->
     <section id="info">
       <div>
         <h2>MONTE NEVADO</h2>
@@ -63,8 +67,83 @@
         </p>
       </div>
     </section>
-    <section>
-      
+    <!-- Banner 2 -->
+    <section id="banner_2">
+      <div>
+        <h2>25% DE DESCUENTO</h2>
+      </div>
+      <div>
+        <p> Puede obtener un 25% de descuento</p>
+      </div>
+      <div>
+        <button class="button">HACER RESERVACION YA</button>
+      </div>
     </section>
+    <!-- Contact -->
+    <section id="contact">
+      <div><h3>Contacto</h3></div>
+      <div>
+        <p>Nos puede escribir sin ningun compromiso por cualquier de nuestras redes sociales o por nuestro <span class="green">chat en linea</span></p>
+      </div>
+      <div>
+      <div>
+        <button class="button"><i class="fab fa-google-plus-g"></i> GOOGLE+</button>
+      </div>
+      <div>
+        <button class="button"><i class="fab fa-twitter"></i> TWITTER</button></div>
+      <div>
+        <button class="button">CHAT</button> </div></div>
+    </section>
+    <!-- Reservation -->
+    <section id="reservation">
+      <div class="h3"><h3>Reservaciones</h3></div>
+      <div class="reservation-input">
+        <div>
+          <p>Nombre completo</p>
+          <input class="input" type="text">
+        </div>
+        <div>
+          <p>Fecha de entrada</p>
+          <input class="input" type="date">
+        </div>
+        <div>
+          <p>Fecha de salida</p>
+          <input class="input" type="date">
+        </div>
+        <div>
+          <p>Email</p>
+          <input class="input" type="email">
+        </div>
+        <div>
+          <p>Telefono</p>
+          <input class="input" type="text">
+        </div>
+      </div>
+      <div class="reservation-checkbox">
+        <p>Tipo de moneda con la que va a realizar el pago</p>
+          <div>
+            <input class="round" type="checkbox" name="Colones">
+            <label for="Colones">Colones</label>
+          </div>
+          <div>
+            <input class="round" type="checkbox" name="Dolares">
+            <label for="Dolares">Dolares</label>
+          </div>
+          <div>
+            <input class="round" type="checkbox" name="Euros">
+            <label for="Euros">Euros</label>
+          </div>
+      </div>
+      <div class="terms-input">
+        <input type="checkbox" name="terms">
+        <label for="terms">Acepto los terminos y condiciones</label>
+      </div>
+      <div class="reservation-button">
+        <button class="button">
+          Reservar
+        </button>
+      </div>
+    </section>
+      <div class="footer-bottom"> Copyright &copy; Monte Nevado 2020</div>
   </body>
 </html>
